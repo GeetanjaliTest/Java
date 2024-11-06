@@ -1,5 +1,9 @@
 package package3;
 
+//A child cannot have two parent or base classes in Java
+//Java does not support multiple inheritance
+//Diamond problem arises
+
 public class MountainBike extends Bicycle{
 
     public int seatHeight;
